@@ -1,0 +1,201 @@
+.footer {
+background-color: #eee;
+  }
+  
+  .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+  
+  .product-name {
+    font-weight: 700;
+    text-decoration: underline;
+    }
+    
+    .product-price,
+    .cart_item_price {
+    font-style: ;
+    }
+    
+    .product-img {
+    max-width: 150px;
+    margin: 0 auto;
+    }
+    
+    .card {
+    border: 1px rgb(0, 0, 0);
+    }
+    
+    .btn:disabled {
+    opacity: 0.5;
+    }
+    
+    h4 {
+    font-family: normal;
+    }
+    
+    .cart_item_name {
+    font-weight: 700;
+    }
+    
+    .cart {
+        background-color: #aaa;
+        }
+
+
+    .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(192, 192, 192, 0.1);
+    font-family: cursive;
+    font-size: xx-large;
+    cursor: wait;
+    letter-spacing: 0.05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    }
+  
+
+   
+
+
+
+  /* Confirmation page */
+
+  body{
+    background-color: #eee;
+  }
+  .card{
+        background-color: #fff;
+      width: 300px;
+      border: none;
+      border-radius: 16px;
+  
+  }
+  
+  .info{
+        line-height: 19px;
+  }
+  
+  .name{
+    color: #4c40e0;
+      font-size: 18px;
+      font-weight: 600;
+  }
+  
+  .order{
+    font-size: 14px;
+    font-weight: 400;
+    color: #b7b5b5;
+  }
+  .detail{
+  
+    line-height:19px;
+  }
+  
+  .summery{
+  
+  
+        color: #d2cfcf;
+      font-weight: 400;
+      font-size: 13px;
+  }
+     
+  }
+  
+  .text{
+  
+    line-height:15px;
+  }
+  .new{
+  
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .money{
+  
+  
+    font-size: 14px;
+    font-weight:500;
+  }
+  .address{
+  
+  color: #d2cfcf;
+    font-weight:500;
+    font-size:14px;
+  }
+  
+  .last{
+  
+    font-size: 10px;
+    font-weight: 500;
+  
+  }
+  
+  
+  .address-line{
+    color: #4C40E0;
+      font-size: 11px;
+      font-weight: 700;
+  }
+
+  /* Checkout form */
+
+  ".container {\r\n  max-width: 960px;\r\n}\r\n\r\n.lh-condensed { line-height: 1.25; }"
+
+
+  /* about */
+
+  body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/jheneaiko.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
